@@ -1,0 +1,38 @@
+<html>
+  <head>
+      <title>Snake Game</title>
+      <style>
+          #can{
+              background-color: lightgreen;
+              height: 500px;
+              width: 500px;
+              border: 20px solid green;
+          }
+          
+          div{
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;    
+          }
+          
+          div > button{
+              background-color: #4CAF50;
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+          }
+      </style>
+  </head>
+  <body>
+      <div>
+        <canvas id="can" ></canvas>
+        <button type="button" onClick="window.location.reload();">START AGAIN!</button>
+      </div>
+      <script src="index.js" > </script>
+  </body>
+</html>
